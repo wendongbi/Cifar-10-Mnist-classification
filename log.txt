@@ -1,0 +1,28 @@
+pca->best dim
+svm->best kernel, best C
+
+
+1. dataset:madelon
+
+svm:
+baseline acc = 0.5433333333333333
+dim=100 acc = 0.57
+
+
+2. dataset:letter
+train:(15000, 17)
+test:(5000, 17)
+cls:2
+dim=16
+
+svm:
+baseline acc=0.7914
+
+3. dataset:mnist
+train: (60000, 780)
+test: (10000, 780)
+cls: 10
+
+4. dataset:cifar-10
+train(50000, 3702)
+test(10000, 3702)
